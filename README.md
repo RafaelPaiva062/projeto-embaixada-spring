@@ -88,24 +88,6 @@
 
 ---
 
-### Classe: `ReconhecimentoDocumentos`
-
-#### Métodos:
-
-- **AutenticarAssinatura** *(Acessível para brasileiros e estrangeiros)*  
-  Autentica assinaturas de brasileiros e estrangeiros.
-
-- **ReconhecerFirma** *(Acessível para brasileiros e estrangeiros)*  
-  Reconhece firma de brasileiros e estrangeiros.
-
-- **LegalizarDocumentos** *(Acessível para brasileiros e estrangeiros)*  
-  Legaliza documentos de brasileiros e estrangeiros.
-
-- **FazerTraducaoJuramentada** *(Acessível para brasileiros e estrangeiros)*  
-  Faz traduções juramentadas de documentos para brasileiros e estrangeiros.
-
----
-
 ## 3. Emissão de Segunda Via e Atendimento a Emergências
 
 ### Classe: `CadastroPessoa`
