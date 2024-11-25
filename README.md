@@ -4,7 +4,7 @@
 
 ### Classe: `CadastroPessoa`
 
-#### Métodos:
+#### Características: 
 
 - **CadastrarPessoaBrasileira** *(Acessível para brasileiros)*  
   Registra dados de brasileiros (nome, CPF, nacionalidade, etc.).
