@@ -1,12 +1,11 @@
 package com.senai.embaixadasenai.modelo;
 
-
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
 @Entity
 public class Usuario {
+
     @Id
     private int id;
     private String nome;
@@ -18,7 +17,7 @@ public class Usuario {
     private String sexo;
     private String enderecoResidencial;
     private String enderecoEstrangeiro;
-    private String filiacao; 
+    private String filiacao;
     private String estadoCivil;
     private String paisResidente;
     private String certidaoNasciemento;
@@ -26,6 +25,8 @@ public class Usuario {
     private String telefone;
     private String telefoneDeContato;
     private String vinculoDePaisDeOrigem;
+    // Getters e Setters
+
     public int getId() {
         return id;
     }
@@ -170,4 +171,3 @@ public class Usuario {
         this.vinculoDePaisDeOrigem = vinculoDePaisDeOrigem;
     }
 }
-
