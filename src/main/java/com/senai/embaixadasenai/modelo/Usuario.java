@@ -6,7 +6,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
 @Entity
-public class VerificacaoCidadaoUsuario {
+public class Usuario {
     @Id
     private int id;
     private String nome;
